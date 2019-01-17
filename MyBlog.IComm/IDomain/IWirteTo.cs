@@ -1,4 +1,4 @@
-﻿namespace MyBlog.IComm.IRepos
+﻿namespace MyBlog.IComm.IDomain
 {
     public interface IWirteTo<T> where T: class
     {

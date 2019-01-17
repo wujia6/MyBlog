@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using MyBlog.Domain.Data;
 using MyBlog.IComm;
-using MyBlog.IComm.IRepos;
+using MyBlog.IComm.IDomain;
 
 namespace MyBlog.Domain.Service
 {

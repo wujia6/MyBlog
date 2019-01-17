@@ -3,10 +3,18 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 
-namespace MyBlog.IComm.IRepos
+namespace MyBlog.IComm.IDomain
 {
-    public interface IReadTo<T> where T: class
+    public interface IRepository<T> where T: class, IAggregroot
     {
+        bool Create(T entity);
+
+        bool Remove(int id);
+
+        bool Edit(T entity);
+
+        int ExecPro(string sql, params object[] paramters);
+
         T Find(int Id);
 
         T Find(Expression<Func<T, bool>> filter);

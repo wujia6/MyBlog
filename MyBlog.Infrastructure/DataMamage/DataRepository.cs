@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Net.Http;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
-using MyBlog.IComm.IRepos;
+using MyBlog.IComm.IDomain;
 
 namespace MyBlog.Infrastructure.DataMamage
 {

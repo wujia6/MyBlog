@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyBlog.IComm.IRepos
+namespace MyBlog.IComm.IDomain
 {
     public interface IUnitOfWork: IDisposable
     {

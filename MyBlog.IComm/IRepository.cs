@@ -1,4 +1,4 @@
-﻿using MyBlog.IComm.IRepos;
+﻿using MyBlog.IComm.IDomain;
 
 namespace MyBlog.IComm
 {

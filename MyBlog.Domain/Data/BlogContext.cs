@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyBlog.IComm.IRepos;
+using MyBlog.IComm.IDomain;
 using MyBlog.Domain.Entities;
 using Microsoft.Extensions.Configuration;
 

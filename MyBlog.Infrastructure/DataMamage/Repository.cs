@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using MyBlog.IComm.IRepos;
+using MyBlog.IComm.IDomain;
 
 namespace MyBlog.Infrastructure.DataManage
 {
